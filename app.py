@@ -19,7 +19,7 @@ st.title(" Heart Diseases")
 
 # Input fields for each parameter
 age = st.number_input("age", min_value=0.0, max_value=100.0, value=1.0)
-sex = st.number_input("sex",min_value=50.0, max_value=198.0, value=1.0)
+sex = st.number_input("sex",min_value=0.0, max_value=1.0, value=1.0)
 cp = st.number_input("cp", min_value=0.0, max_value=100.0, value=50.0, step=0.1)
 chol = st.number_input("chol", min_value=0, max_value=1000, value=1.0)
 fbs = st.number_input("fbs", min_value=0.0, max_value=100.0, value=.10)
